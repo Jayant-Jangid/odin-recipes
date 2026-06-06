@@ -1,3 +1,38 @@
 * {
-    background-color: aqua;
+    background-color: rgb(0, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+h1::before, h1::after {
+    content: "🔥";
+    margin: 0px 3px;
+}
+
+h1 span.heading {
+    border: 2px dashed white;
+}
+
+div.content {
+    margin-left: 0.5em;
+    font-family: "Times New Roman", "Arial", serif;
+}
+
+ul li a:hover {
+    color: orange;
+    border: 4px solid green;
+    background-color: hotpink;
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+    text-decoration: underline dotted;
+}
+
+span#opening-line a:hover {
+    text-decoration: underline;
 }
