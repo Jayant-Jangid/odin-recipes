@@ -14,6 +14,7 @@ h1::before, h1::after {
 
 h1 span.heading {
     border: 2px dashed white;
+    border-radius: 10%;
 }
 
 div.content {
